@@ -1,74 +1,71 @@
-/* Background image */
-.body {
-  background-image: url(images/N.background.jpg);
+* {
+  margin: 0;
+  padding: 0;
 }
-/* Transparent Box */
-.trans {
-  background-color: rgba(0, 0, 0, 0.37);
-  width: 95%;
-  margin: auto;
-}
-/* Form Box */
-.form {
-  margin: auto;
-  width: 500px;
-  padding: 10px;
-  background-color: rgba(0, 0, 0, 0.685);
+body {
+  background-image: url("./images/N.background.jpg");
+  /* background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/998c1c50-6aaa-4795-ab62-9190a025d529/b9883521-f439-4c16-b5eb-b1719e2fece1/ZA-en-20191203-popsignuptwoweeks-perspective_alpha_website_small.jpg"); */
   color: white;
 }
-/* NETFLIX Başlık  */
-#Netflix {
-  padding-top: 1%;
-  color: white;
+#container {
+  background-color: rgba(0, 0, 0, 0.3);
+  margin: 30px 100px;
+}
+#title {
   text-align: center;
+  font-size: 50px;
   font-family: "Bowlby One SC", cursive;
-  font-size: 42px;
+  padding-top: 15px;
+  letter-spacing: 5px;
 }
-
-#flix {
-  color: red;
+span {
+  color:#ff0000;
 }
-
-#Açıklama {
+#description {
   text-align: center;
-  color: white;
   font-size: 23px;
+  font-family: "Sorts Mill Goudy", sans-serif;
+  margin-bottom: 15px;
 }
-
-/* Form Content Box  */
-.iç {
-  position: relative;
-  margin-left: 5%;
+#survey-form {
+  width: 500px;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.8);
+  margin: auto;
+  padding-top: 10px;
 }
-
-#content {
-  width: 90%;
-  height: 40px;
+#name,
+#number,
+#email,
+#dropdown {
+  margin-top: 16px;
+  height: 36px;
+  width: 400px;
+  padding: 10px;
 }
-
-.kutucuk {
-  width: 93%;
-  height: 50px;
+#dropdown {
+  box-sizing: content-box;
+  resize: none;
 }
-
-.txtarea {
-  width: 80%;
-  height: 70px;
+.box {
+  margin-top: 20px;
+  margin-left: 40px;
 }
-
-/* Gönder Butonu */
-#sub {
-  background-color: red;
-  -moz-border-radius: 25px;
-  -webkit-border-radius: 25px;
-  border-radius: 25px;
-  cursor: pointer;
-  margin-left: 30%;
-  color: white;
+.text-area {
+  margin-top: 10px;
+}
+#submit {
+  background-color:red;
   font-size: larger;
-  padding: 3% 10%;
+  height: 45px;
+  width: 160px;
+  border-radius: 50px;
+  border: none;
+  color: white;
+  margin: 16px 0px 16px 150px;
 }
-#sub:hover {
-  background-color: rgb(255, 255, 255);
+#submit:hover {
+  background: white;
   color: red;
+  cursor: pointer;
 }

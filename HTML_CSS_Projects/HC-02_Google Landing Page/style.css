@@ -1,0 +1,168 @@
+* {
+    box-sizing:content-box;
+  }
+  
+  body{
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .left {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: auto;
+  border: 3px solid #73AD21;
+  font-family: Arial, Helvetica, sans-serif;
+  font: weight 400;
+  font-size: 13px;
+  margin-left: 8px;
+
+    
+    
+    /* background-color:#2196F3;
+    padding:5px;
+    float:left;
+    width:20%;  */
+    
+    
+  }
+/*   
+  .main {
+    background-color:#f1f1f1;
+    padding:5px;
+    float:left;
+    width:50%; 
+  } */
+  
+  .right {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: auto;
+    border: 3px solid #73AD21;
+    margin-right: 8px;
+  }
+
+.right p{
+
+  float: left;
+  margin-left: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font: weight 400;
+  font-size: 13px;
+  margin-top: 15px;
+}
+
+#apicon{
+  margin-top: 8px;
+  float: left;
+  margin-left: 10px;
+  color: aliceblue;
+}
+  
+
+#button{
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+    /* background-color:#4CAF50;
+    padding:5px;
+    float:left;
+    width:28%;}  */
+
+
+#About{
+    float: left;
+}
+#Store{
+    float: left;
+    margin-left: 10px;
+    
+}
+
+#g.logo{
+ 
+  padding-left: 15px;
+  
+}
+
+
+#logo{
+  width: 300px;
+  margin: auto;
+  margin-top: 250px;
+
+}
+
+#divsearch{
+  margin: auto;
+  margin-top: 20px;
+  width: 500px;
+  border: none;
+  
+}
+#search{
+  width: 510px;
+  border-radius:20px ;
+  height: 38px;
+  border-color: rgba(128, 128, 128, 0.158);  
+  
+}
+
+#butonlar{
+  font-size: 13px;
+  font-weight: 400;
+  margin: auto;
+  margin-top: 35px;
+  width: 277px
+    
+  }
+  
+
+  #leftbutton{
+    color: rgb(128, 128, 128);
+    
+    font-size: 13px;
+    font-weight: 400;
+    padding: 9px;
+    padding: 10px 15px 10px;
+
+  }
+
+
+
+  #rightbutton{
+   color: rgb(128, 128, 128);
+    margin-left: 13px;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 10px 15px 10px;
+    
+      }
+ 
+  
+
+/* #g.logo{
+   position: fixed;
+    top: 50%;
+    right: 50%;
+    width: auto;
+    border:3px #73AD21; */
+    
+
+  
+/* @media screen and (max-width:1550px) {
+  .left{
+    width: 20%;
+  
+  }
+  .main{
+    width: 50%;
+  }
+  .right{
+    width: 28%;
+  }
+} */
