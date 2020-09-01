@@ -12,35 +12,22 @@
   top: 0;
   left: 0;
   width: auto;
-  border: 3px solid #73AD21;
   font-family: Arial, Helvetica, sans-serif;
   font: weight 400;
   font-size: 13px;
-  margin-left: 8px;
-
-    
-    
-    /* background-color:#2196F3;
-    padding:5px;
-    float:left;
-    width:20%;  */
-    
-    
+  margin-left: 15px;        
   }
-/*   
-  .main {
-    background-color:#f1f1f1;
-    padding:5px;
-    float:left;
-    width:50%; 
-  } */
+
+  .left p{
+    padding: 5px;
+  }
+
   
   .right {
     position: fixed;
     top: 0;
     right: 0;
     width: auto;
-    border: 3px solid #73AD21;
     margin-right: 8px;
   }
 
@@ -51,11 +38,11 @@
   font-family: Arial, Helvetica, sans-serif;
   font: weight 400;
   font-size: 13px;
-  margin-top: 15px;
+  margin-top: 20px;
 }
 
 #apicon{
-  margin-top: 8px;
+  margin-top: 10px;
   float: left;
   margin-left: 10px;
   color: aliceblue;
@@ -66,6 +53,10 @@
   float: left;
   margin-left: 10px;
   margin-top: 10px;
+  color:#ffffff ;
+  background-color:#4285F4 ;
+  padding: 8px 15px;
+  border: none;
 }
 
     /* background-color:#4CAF50;
@@ -102,21 +93,31 @@
   margin-top: 20px;
   width: 500px;
   border: none;
-  
+  position: relative;
 }
 #search{
   width: 510px;
   border-radius:20px ;
   height: 38px;
+  position: absolute;
   border-color: rgba(128, 128, 128, 0.158);  
+
   
+}
+
+#mic{
+		height: 20px;
+		position: absolute;
+		right: 0;
+		top: 10px
+
 }
 
 #butonlar{
   font-size: 13px;
   font-weight: 400;
   margin: auto;
-  margin-top: 35px;
+  margin-top: 90px;
   width: 277px
     
   }
@@ -143,7 +144,74 @@
     
       }
  
+  #text{
+    width: 300px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    margin-top: 20px;
+  }
+  #text p{
+   padding-left: 15px;
+   
+  }
+
+  .footer_top{
+    position: fixed;
+    bottom: 40px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #5F6368;
+    background-color: #F2F2F2;
+    border-bottom-style: inset;
+    border-color: #E4E4E4;
+
+    
+    
+  }
+  .footer_top p{
+    margin-left: 20px;
+   
+
+  }
+
   
+ 
+
+
+   #footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #5F6368;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 13px;   
+    background-color: #F2F2F2;
+    
+     
+   }
+
+   #footer_left p{
+    float: left;
+    margin-left: 15px;
+
+   }
+   
+   #footer_right p{
+     float: left;
+     margin-right: 15px;
+     
+   }
+
+    #footer_right{
+      float: right;
+      
+
+    }
 
 /* #g.logo{
    position: fixed;
