@@ -124,6 +124,8 @@ a:hover {
   height: 38px;
   position: absolute;
   border-color: rgba(128, 128, 128, 0.158);
+  outline: 0;
+  
   }
  #search:hover{
   box-shadow:3px 3px 3px  rgba(71, 71, 71, 0.247); 
@@ -194,6 +196,9 @@ a:hover {
 }
 #text p {
   padding-left: 15px;
+}
+#text a{
+  text-decoration-line: underline;
 }
 
 .footer_top {
