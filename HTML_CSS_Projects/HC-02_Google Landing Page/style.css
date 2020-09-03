@@ -23,11 +23,11 @@ a:hover {
   font: weight 400;
   font-size: 13px;
   margin-left: 15px;
-  }
+}
 
-  .left a{
-    color: black;
-  }
+.left a {
+  color: black;
+}
 
 .left p {
   padding: 5px;
@@ -41,7 +41,7 @@ a:hover {
   margin-right: 8px;
 }
 
-.right a{
+.right a {
   color: black;
 }
 
@@ -59,13 +59,11 @@ a:hover {
   float: left;
   margin-left: 10px;
   opacity: 0.5;
-  }
+}
 
-  #apicon:hover{
-    opacity: 1;
-  }
-
-
+#apicon:hover {
+  opacity: 1;
+}
 
 #button {
   float: left;
@@ -84,11 +82,6 @@ a:hover {
   text-decoration-line: none;
 }
 
-/* background-color:#4CAF50;
-    padding:5px;
-    float:left;
-    width:28%;}  */
-
 #About {
   float: left;
 }
@@ -100,8 +93,6 @@ a:hover {
   float: left;
   margin-left: 10px;
 }
-
-
 
 #logo {
   width: 250px;
@@ -123,13 +114,11 @@ a:hover {
   position: absolute;
   border-color: rgba(128, 128, 128, 0.158);
   outline: 0;
-  
-  }
- #search:hover{
-  box-shadow:3px 3px 3px  rgba(71, 71, 71, 0.247); 
-  
 }
- 
+#search:hover {
+  box-shadow: 3px 3px 3px rgba(71, 71, 71, 0.247);
+}
+
 #mic {
   cursor: pointer;
   height: 20px;
@@ -164,10 +153,9 @@ a:hover {
   border: none;
 }
 
-#leftbutton:hover{
-  box-shadow:1px 1px 1px 1px rgb(194, 188, 188); 
+#leftbutton:hover {
+  box-shadow: 1px 1px 1px 1px rgb(194, 188, 188);
   color: black;
-
 }
 
 #rightbutton {
@@ -179,8 +167,8 @@ a:hover {
   padding: 10px 15px 10px;
   border: none;
 }
-#rightbutton:hover{
-  box-shadow:1px 1px 1px 1px rgb(194, 188, 188); 
+#rightbutton:hover {
+  box-shadow: 1px 1px 1px 1px rgb(194, 188, 188);
   color: black;
 }
 
@@ -195,7 +183,7 @@ a:hover {
 #text p {
   padding-left: 15px;
 }
-#text a{
+#text a {
   text-decoration-line: underline;
 }
 
@@ -229,7 +217,6 @@ a:hover {
 #footer_left p {
   float: left;
   margin-left: 15px;
-  
 }
 
 #footer_right p {
@@ -241,26 +228,6 @@ a:hover {
   float: right;
 }
 
-#footer a{
-  color:#5f6368;
+#footer a {
+  color: #5f6368;
 }
-
-/* #g.logo{
-   position: fixed;
-    top: 50%;
-    right: 50%;
-    width: auto;
-    border:3px #73AD21; */
-
-/* @media screen and (max-width:1550px) {
-  .left{
-    width: 20%;
-  
-  }
-  .main{
-    width: 50%;
-  }
-  .right{
-    width: 28%;
-  }
-} */
