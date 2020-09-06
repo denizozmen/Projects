@@ -1,76 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Google Landing Page</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./images/gfavicon.png" type="image/png">
 </head>
-
 <body>
-  <div class="left">
-    <p id="About"><a href="#">About</a></p>
-    <p id="Store"><a href="#">Store</a></p>
-  </div>
-
-
-  <div class="right">
-    <p><a href="#">Gmail</a></p>
-    <p><a href="#">Images</a></p>
-    <a href="#"> <img src="images/appicon.png" alt="Box_menu" id="apicon"></a>
-    <a href="#" id="asign"><button id="button" onclick="window.location.href ='#'">Sign In</a></button>
-  </div>
-
-  <div id="logo">
-    <img src="images/googlelogo.png" alt="googlelogo" id="g.logo"></div>
-
-  <div id="divsearch">
-    <input type="text" id="search" readonly >
-    <img src="images/mic.png" alt="mic" id="mic"> 
-    <img src="images/buyutec.jpg" alt="buyutec" id="buyutec">
-  </div>
-    
-
-  <div id="butonlar"> <button id="leftbutton">Google Search</a></button> <button id="rightbutton">I'm Feeling Lucky</button>
-  </div>
-
-  <div id="text">
-    <p>Other languages you can use Google: <a href="#">English</a> </p>
-  </div>
-
-  <div class="footer_top">
-    <p>Turkey</p>
-  </div>
-  
-
-  <div id="footer">
-    <div id="footer_left">
-      <p> <a href="#"> Advertising</a></p>
-      <p><a href="#"> Business</a></p>
-      <p><a href="#"> How Search Works</a></p>
-    </div>
-
-    <div id="footer_right">
-      <p> <a href="#"> Privacy</a></p>
-      <p><a href="#"> Tems</a></p>
-      <p><a href="#"> Settings</a></p>
-    </div>
-
-  </div>
-
-
-
-
-
-
-
-
-
-
+    <header class="clearfix">
+        <ul class="header-left">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Store</a></li>
+        </ul>
+        <ul class="header-right">
+            <li> <a href="#">Gmail</a> </li>
+            <li> <a href="#">Images</a> </li>
+            <li> <a href="#"> <img src="./images/appicon.png" alt="Application-Image" id="appicon"> </a> </li>
+            <li> <button id="sign-in-btn">Sign In</button> </li>
+        </ul>
+    </header>
+    <main>
+        <img id="google-logo" src="./images/googlelogo.png" alt="google-logo">
+        <div class="searchbar">
+            <img id="mag" src="./images/buyutec.jpg" alt="magnify-glass">
+            <input id="search" type="search" name="search">
+            <img id="keyboard" src="./images/keyboard.png" alt="keyboard">
+            <img id="microphone" src="./images/mic.png" alt="microphone">
+        </div>
+        <div class="btn-container">
+            <button id="btn1" type="button" name="button">Google Search</button>
+            <button id="btn2" type="button" name="button">I'm Feeling Lucky</button>
+        </div>
+        <div class="lang">
+            <p id="language">Other Languages you can use Google: <a href="#">Turkish</a> </p>
+        </div>
+    </main>
+    <footer>
+        <div class="country">Turkey</div>
+        <ul class="footer-left">
+            <li><a href="#">Advertising</a></li>
+            <li><a href="#">Business</a></li>
+            <li><a href="#">How Search Works</a></li>
+        </ul>
+        <ul class="footer-right">
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Settings</a></li>
+        </ul>
+    </footer>
 </body>
-
-</html>
-</body>
-
 </html>
