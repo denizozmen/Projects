@@ -1,1 +1,220 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+/* HOME PAGE */
+
+* {
+  box-sizing: border-box;
+}
+.contanier1 {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 100px 400px 100px 300px 140px;
+  grid-template-areas:
+    "headerleft headerleft headerleft headerright headerright headerright"
+    "main main main main main main"
+    "text text text searcbar searcbar searcbar"
+    "section1 section1 section2 section2 section3 section3"
+    "footer footer footer footer footer footer";
+}
+
+#box1 {
+  grid-area: headerleft;
+  background-color: #35424a;
+  border-bottom: 2px solid #a9508b;
+}
+
+#box2 {
+  grid-area: headerright;
+  border-bottom: 2px solid #a9508b;
+  background-color: #35424a;
+}
+#box2 ul {
+  margin-left: 150px;
+  margin-top: 40px;
+}
+
+#box2 ul li {
+  list-style-type: none;
+  float: left;
+  margin-left: 0.75em;
+  margin-right: 0.75em;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#box2 a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#box2 a:hover {
+  font-weight: bold;
+}
+
+#box2 a:focus {
+  color: #a9508b;
+  font-weight: 700;
+}
+
+#box3 {
+  grid-area: main;
+  background-image: url(images/showcase.jpg);
+}
+#box3 h1 {
+  text-align: center;
+  padding-top: 10%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 55px;
+  color: #ffffff;
+}
+#box3 p {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+#box4 {
+  grid-area: text;
+
+  text-align: center;
+  padding-top: 2%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 23px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #35424a;
+}
+
+#box5 {
+  grid-area: searcbar;
+  
+
+  text-align: center;
+  padding-top: 6%;
+  background-color: #35424a;
+}
+#email {
+  width: 250px;
+  height: 35px;
+}
+
+#button {
+  width: 90px;
+  height: 35px;
+  background-color: #a9508b;
+  color: #ffffff;
+  outline: none;
+}
+
+#box6 {
+
+  grid-area: section1;
+  border-bottom: 2px solid #a9508b;
+  text-align: center;
+  padding-top: 10%;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#box7 {
+  grid-area: section2;
+  border-bottom: 2px solid #a9508b;
+  text-align: center;
+  padding-top: 10%;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+#box8 {
+  grid-area: section3;
+  border-bottom: 2px solid #a9508b;
+    text-align: center;
+  padding-top: 10%;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.logo678box {
+  width: 80px;
+  height: 90px;
+}
+
+.box678p{
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    font-size: 15px;
+
+}
+
+#box9 {
+  grid-area: footer;
+  text-align: center;
+  padding: 15px;
+  font-family:Arial, Helvetica, sans-serif ;
+  font-size: 15px;
+}
+
+#box9 img{
+  width: 200px;
+  height: 40px;
+}
+
+#box1p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: #a9508b;
+  text-align: center;
+  padding-bottom: 1px;
+}
+#box1p span {
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 600px) {
+  .contanier1 {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 100px 400px 60px 75px 300px 300px 140px;
+    grid-template-areas:
+      "headerleft"    
+      "headerright"
+      "main"
+      "text"
+      "searcbar"
+      "section1"
+      "section2"
+      "section3"
+      "footer";
+  }
+
+
+
+
+
+
+  /* .contanier1{
+display: flex;
+flex-wrap: wrap;
+}
+
+.boxone{
+  width: 100%;
+}
+
+#box2 ul {
+  margin: 0;
+}
+#box2{
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+} */
+
+
+
+}
