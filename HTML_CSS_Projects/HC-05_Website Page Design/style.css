@@ -60,6 +60,8 @@
 #box3 {
   grid-area: main;
   background-image: url(images/showcase.jpg);
+  background-position: center;
+  background-size:cover ;
 }
 #box3 h1 {
   text-align: center;
@@ -179,7 +181,7 @@
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 100px 100px 400px 60px 75px 300px 300px 140px;
+    grid-template-rows: 100px 75px 400px 60px 75px 300px 300px 300px 140px;
     grid-template-areas:
       "headerleft"    
       "headerright"
@@ -192,8 +194,21 @@
       "footer";
   }
 
-
-
+  #box2 ul {
+    margin-top: 30px;
+    margin-left: 15% ;
+  }
+  #box2 ul li{
+    margin-left: 0.50em;
+    margin-right: 0.50em;
+  }
+  #box3 h1 {
+    padding-top: 25%;
+    font-size: 30px;
+  }
+  #box3 p {
+    font-size: 18px;
+  }
 
 
 
