@@ -61,7 +61,7 @@
   grid-area: main;
   background-image: url(images/showcase.jpg);
   background-position: center;
-  background-size:cover ;
+  background-size: cover;
 }
 #box3 h1 {
   text-align: center;
@@ -93,10 +93,9 @@
 
 #box5 {
   grid-area: searcbar;
-  
 
   text-align: center;
-  padding-top: 6%;
+  padding-top: 30px;
   background-color: #35424a;
 }
 #email {
@@ -113,13 +112,11 @@
 }
 
 #box6 {
-
   grid-area: section1;
   border-bottom: 2px solid #a9508b;
   text-align: center;
   padding-top: 10%;
   font-family: Arial, Helvetica, sans-serif;
-
 }
 
 #box7 {
@@ -128,38 +125,35 @@
   text-align: center;
   padding-top: 10%;
   font-family: Arial, Helvetica, sans-serif;
-
 }
 #box8 {
   grid-area: section3;
   border-bottom: 2px solid #a9508b;
-    text-align: center;
+  text-align: center;
   padding-top: 10%;
   font-family: Arial, Helvetica, sans-serif;
-
 }
 .logo678box {
   width: 80px;
   height: 90px;
 }
 
-.box678p{
-    text-align: center;
-    width: 300px;
-    margin: auto;
-    font-size: 15px;
-
+.box678p {
+  text-align: center;
+  width: 300px;
+  margin: auto;
+  font-size: 15px;
 }
 
 #box9 {
   grid-area: footer;
   text-align: center;
   padding: 15px;
-  font-family:Arial, Helvetica, sans-serif ;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
 }
 
-#box9 img{
+#box9 img {
   width: 200px;
   height: 40px;
 }
@@ -183,7 +177,7 @@
     grid-template-columns: 1fr;
     grid-template-rows: 100px 75px 400px 60px 75px 300px 300px 300px 140px;
     grid-template-areas:
-      "headerleft"    
+      "headerleft"
       "headerright"
       "main"
       "text"
@@ -196,11 +190,11 @@
 
   #box2 ul {
     margin-top: 30px;
-    margin-left: 15% ;
+    margin-left: 15%;
   }
-  #box2 ul li{
-    margin-left: 0.50em;
-    margin-right: 0.50em;
+  #box2 ul li {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
   }
   #box3 h1 {
     padding-top: 25%;
@@ -209,27 +203,4 @@
   #box3 p {
     font-size: 18px;
   }
-
-
-
-  /* .contanier1{
-display: flex;
-flex-wrap: wrap;
-}
-
-.boxone{
-  width: 100%;
-}
-
-#box2 ul {
-  margin: 0;
-}
-#box2{
-  text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
-} */
-
-
-
 }
