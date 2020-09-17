@@ -1,20 +1,21 @@
-/* HOME PAGE */
+/* ABOUT PAGE */
 
 * {
   box-sizing: border-box;
 }
-
-
 .contanier1 {
   height: 100vh;
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: 100px 400px 100px 300px 140px;
+  grid-template-columns: 100px 1fr 1fr 1fr 1fr 100px;
+  grid-template-rows: 100px 100px auto auto auto auto 140px;
   grid-template-areas:
     "headerleft headerleft headerleft headerright headerright headerright"
-    "main main main main main main"
     "text text text searcbar searcbar searcbar"
-    "section1 section1 section2 section2 section3 section3"
+    ". section1 section1 section1 section2 ."
+    ". section3 section3 section3 section2 ."
+    ". . . . . . "
+    ". . . . . . "
+    ". . . . . . "
     "footer footer footer footer footer footer";
 }
 
@@ -45,10 +46,6 @@
   font-weight: 400;
 }
 
-#home{
-  color: #a9508b !important;
-}
-
 #box2 a {
   text-decoration: none;
   color: #ffffff;
@@ -64,30 +61,7 @@
 }
 
 #box3 {
-  grid-area: main;
-  background-image: url(images/showcase.jpg);
-  background-position: center;
-  background-size: cover;
-}
-#box3 h1 {
-  text-align: center;
-  padding-top: 10%;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 700;
-  font-size: 55px;
-  color: #ffffff;
-}
-#box3 p {
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  color: #ffffff;
-}
-
-#box4 {
   grid-area: text;
-
   text-align: center;
   padding-top: 2%;
   font-family: Arial, Helvetica, sans-serif;
@@ -97,9 +71,8 @@
   background-color: #35424a;
 }
 
-#box5 {
+#box4 {
   grid-area: searcbar;
-
   text-align: center;
   padding-top: 30px;
   background-color: #35424a;
@@ -117,49 +90,54 @@
   outline: none;
 }
 
-#box6 {
+#box5 {
   grid-area: section1;
-  border-bottom: 2px solid #a9508b;
-  text-align: center;
-  padding-top: 10%;
+  margin-right: 50px;
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 23px;
+}
+
+#box6 {
+  grid-area: section2;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 23px;
+  background-color: #35424a;
+  margin-top: 25px;
+  margin-bottom: 150px;
+  color: #ffffff;
+  padding: 15px 10px 15px 10px;
 }
 
 #box7 {
-  grid-area: section2;
-  border-bottom: 2px solid #a9508b;
-  text-align: center;
-  padding-top: 10%;
-  font-family: Arial, Helvetica, sans-serif;
-}
-#box8 {
   grid-area: section3;
-  border-bottom: 2px solid #a9508b;
-  text-align: center;
-  padding-top: 10%;
   font-family: Arial, Helvetica, sans-serif;
-}
-.logo678box {
-  width: 80px;
-  height: 90px;
+  line-height: 23px;
+  background-color: #35424a;
+  margin-right: 60px;
+  padding: 15px;
+  margin-bottom: 40px;
 }
 
-.box678p {
-  text-align: center;
-  width: 300px;
+.box78p {
   margin: auto;
   font-size: 15px;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
 }
 
-#box9 {
+#box8 {
   grid-area: footer;
   text-align: center;
   padding: 15px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
+  border-top: 2px solid #a9508b;
+  background-color: #fffaf0;
 }
 
-#box9 img {
+#box8 img {
   width: 200px;
   height: 40px;
 }
@@ -181,11 +159,10 @@
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 100px 75px 400px 60px 75px 300px 300px 300px 140px;
+    grid-template-rows: 100px 75px 50px 75px auto auto auto 140px;
     grid-template-areas:
       "headerleft"
       "headerright"
-      "main"
       "text"
       "searcbar"
       "section1"
@@ -208,5 +185,12 @@
   }
   #box3 p {
     font-size: 18px;
+  }
+  #box6 {
+    margin-bottom: 30px;
+  }
+
+  #box7 {
+    margin-right: 0;
   }
 }
