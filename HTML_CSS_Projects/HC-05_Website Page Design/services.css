@@ -1,0 +1,244 @@
+* {
+    box-sizing: border-box;
+  }
+  .contanier1 {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 100px 1fr 1fr 1fr 1fr 100px;
+    grid-template-rows: 100px 100px auto auto auto 140px;
+    grid-template-areas:
+      "headerleft headerleft headerleft headerright headerright headerright"
+      "text text text searcbar searcbar searcbar"
+      ". section1 section1 section1 section4 ."
+      ". section2 section2 section2 section4 ."
+      ". section3 section3 section3 . ."
+      "footer footer footer footer footer footer";
+}
+    
+    
+
+      
+#box1 {
+    grid-area: headerleft;
+    background-color: #35424a;
+    border-bottom: 2px solid #a9508b;
+  }
+  #box1p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #a9508b;
+    text-align: center;
+    padding-bottom: 1px;
+  }
+  #box1p span {
+    color: #ffffff;
+  }
+  
+  #box2 {
+    grid-area: headerright;
+    border-bottom: 2px solid #a9508b;
+    background-color: #35424a;
+  }
+  #box2 ul {
+    margin-left: 150px;
+    margin-top: 40px;
+  }
+  
+  #box2 ul li {
+    list-style-type: none;
+    float: left;
+    margin-left: 0.75em;
+    margin-right: 0.75em;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  #services{
+    color: #a9508b !important;
+    font-weight: 700;
+  }
+  
+  #box2 a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  #box2 a:hover {
+    font-weight: bold;
+  }
+  
+  #box2 a:focus {
+    color: #a9508b;
+    font-weight: 700;
+  }
+  
+  #box3 {
+    grid-area: text;
+    text-align: center;
+    padding-top: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #35424a;
+  }
+  
+  #box4 {
+    grid-area: searcbar;
+    text-align: center;
+    padding-top: 30px;
+    background-color: #35424a;
+  }
+  #email {
+    width: 250px;
+    height: 35px;
+
+  }
+  
+  #button {
+    width: 90px;
+    height: 35px;
+    background-color: #a9508b;
+    color: #ffffff;
+    outline: none;
+    margin-right: 40px;
+  }
+
+  #box5{
+      grid-area: section1;
+      margin-bottom: 5px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 18px;
+      
+
+  }
+
+  #boxp{
+      background-color: #E6E6E6;
+      margin-right: 50px;
+      padding: 15px 15px 15px 15px;
+      font-size: 15px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #box6{
+        grid-area: section2;
+        margin-bottom: 5px;
+        
+    }
+    #box7{
+        grid-area: section3;
+        margin-bottom: 10px;
+        
+    }
+
+    #box8 {
+        grid-area: footer;
+        text-align: center;
+        padding: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        border-top: 2px solid #a9508b;
+        background-color: #fffaf0;
+      }
+      
+      #box8 img {
+        width: 200px;
+        height: 40px;
+      }
+
+      #box9{
+          grid-area: section4;
+          padding-top: 15px;
+         
+      }
+
+      #box9 div{
+          background-color: #35424a;
+          color: #ffffff;
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 15px;
+          font-weight: 400;
+          padding: 1px 20px 15px;
+      
+        }  
+        #name{
+            width: 230px;
+            height: 25px;
+        }
+        #emailtwo{
+            width: 230px;
+            height: 25px;
+        }
+        #feedback{
+            width: 230px;
+            height: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #submit{
+            background-color: #a9508b;
+            color: #ffffff;
+            outline: none;
+            padding: 10px 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .contanier1 {
+              height: 100vh;
+              display: grid;
+              grid-template-columns: 1fr;
+              grid-template-rows: 100px 75px 50px 75px auto auto auto auto 140px;
+              grid-template-areas:
+                "headerleft"
+                "headerright"
+                "text"
+                "searcbar"
+                "section1"
+                "section2"
+                "section3"
+                "section4"
+                "footer";
+            }
+          
+            #box2 ul {
+              margin-top: 30px;
+              margin-left: 15%;
+            }
+            #box2 ul li {
+              margin-left: 0.5em;
+              margin-right: 0.5em;
+            }
+            #box3 h1 {
+              padding-top: 25%;
+              font-size: 30px;
+            }
+            #box3 p {
+              font-size: 18px;
+            }
+           
+              #feedback{
+                width: 230px;
+                height: 50px;
+
+            }
+
+            #box9 div{
+              
+              margin-right:45px;
+              margin-bottom: 10px;
+
+            }
+            #email {
+                width: 200px;
+                height: 35px;
+                margin-left: 10px;                       
+            
+              }
+
+              
+           
+        }

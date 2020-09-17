@@ -46,6 +46,11 @@
   font-weight: 400;
 }
 
+#about{
+  color: #a9508b !important;
+  font-weight: 700;
+}
+
 #box2 a {
   text-decoration: none;
   color: #ffffff;

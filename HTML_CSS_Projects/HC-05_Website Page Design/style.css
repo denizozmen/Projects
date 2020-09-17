@@ -5,7 +5,7 @@
 }
 
 
-.contanier1 {
+.contanier {
   height: 100vh;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -47,6 +47,7 @@
 
 #home{
   color: #a9508b !important;
+  font-weight: 700;
 }
 
 #box2 a {
@@ -177,7 +178,7 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .contanier1 {
+  .contanier {
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr;
@@ -210,3 +211,4 @@
     font-size: 18px;
   }
 }
+
