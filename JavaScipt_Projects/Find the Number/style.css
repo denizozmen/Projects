@@ -1,0 +1,11 @@
+div{
+    width: 30%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    min-width: 300px;
+}
+#text{
+   margin: auto;
+}
