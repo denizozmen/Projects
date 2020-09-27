@@ -1,0 +1,17 @@
+body{
+height: 90vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background: black;
+
+}
+
+span{
+    
+    color: #17D4FE;
+    font-size: 60px;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 7px;
+
+}
