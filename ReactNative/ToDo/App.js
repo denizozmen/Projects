@@ -14,6 +14,10 @@ import {
   View,
   Text,
   StatusBar,
+  TextInputComponent,
+  TextInput,
+  TouchableOpacity,
+  Dimensions,
 } from 'react-native';
 
 import {
@@ -24,90 +28,72 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
-const App: () => React$Node = () => {
+const App = () => {
   return (
-    <>
-      <StatusBar barStyle="dark-content" />
-      <SafeAreaView>
-        <ScrollView
-          contentInsetAdjustmentBehavior="automatic"
-          style={styles.scrollView}>
-          <Header />
-          {global.HermesInternal == null ? null : (
-            <View style={styles.engine}>
-              <Text style={styles.footer}>Engine: Hermes</Text>
-            </View>
-          )}
-          <View style={styles.body}>
-            <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Step One</Text>
-              <Text style={styles.sectionDescription}>
-                Edit <Text style={styles.highlight}>App.js</Text> to change this
-                screen and then come back to see your edits.
-              </Text>
-            </View>
-            <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>See Your Changes</Text>
-              <Text style={styles.sectionDescription}>
-                <ReloadInstructions />
-              </Text>
-            </View>
-            <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Debug</Text>
-              <Text style={styles.sectionDescription}>
-                <DebugInstructions />
-              </Text>
-            </View>
-            <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Learn More</Text>
-              <Text style={styles.sectionDescription}>
-                Read the docs to discover what to do next:
-              </Text>
-            </View>
-            <LearnMoreLinks />
-          </View>
-        </ScrollView>
-      </SafeAreaView>
-    </>
+    <SafeAreaView style={styles.container}>
+      <View style={styles.Header}>
+        <Text style={styles.text}>TODO</Text>
+        <Text style={styles.number}>0</Text>
+      </View>
+
+      <View style={styles.entry}>
+        <TextInput style={styles.Input} />
+        <TouchableOpacity style={styles.button}>
+          <Text style={styles.buttontext}>ADD TODO</Text>
+        </TouchableOpacity>
+      </View>
+    </SafeAreaView>
   );
 };
 
 const styles = StyleSheet.create({
-  scrollView: {
-    backgroundColor: Colors.lighter,
+  container: {
+    flex: 1,
+    justifyContent: 'space-between',
+    backgroundColor: '#37474F',
   },
-  engine: {
-    position: 'absolute',
-    right: 0,
+  text: {
+    color: '#ffc107',
+    fontSize: 40,
+    fontWeight: 'bold',
   },
-  body: {
-    backgroundColor: Colors.white,
+  number: {
+    color: '#ffc107',
+    fontSize: 30,
   },
-  sectionContainer: {
-    marginTop: 32,
-    paddingHorizontal: 24,
+  Header: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    paddingHorizontal: 10,
   },
-  sectionTitle: {
-    fontSize: 24,
-    fontWeight: '600',
-    color: Colors.black,
+  entry: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    alignSelf: 'center',
+    height: Dimensions.get('window').height * 0.18,
+    backgroundColor: '#78909c',
+    width: Dimensions.get('window').width * 0.95,
+    marginBottom: 20,
+    borderRadius: 20,
   },
-  sectionDescription: {
-    marginTop: 8,
-    fontSize: 18,
-    fontWeight: '400',
-    color: Colors.dark,
+  Input: {
+    backgroundColor: '#f5f5f5',
+    height: Dimensions.get('window').height * 0.05,
+    width: Dimensions.get('window').width * 0.85,
+    marginVertical: 15,
+    borderRadius: 10,
   },
-  highlight: {
-    fontWeight: '700',
+  button: {
+    width: Dimensions.get('window').width * 0.4,
+    height: Dimensions.get('window').height * 0.06,
+    alignItems: 'center',
+    backgroundColor: '#455a64',
+    padding: 10,
+    borderRadius: 5,
   },
-  footer: {
-    color: Colors.dark,
-    fontSize: 12,
-    fontWeight: '600',
-    padding: 4,
-    paddingRight: 12,
-    textAlign: 'right',
+  buttontext: {
+    color: 'white',
+    fontWeight: 'bold',
   },
 });
 
