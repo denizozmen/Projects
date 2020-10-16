@@ -27,6 +27,13 @@ import {
   DebugInstructions,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+import Worklist from './src/Worklist';
+
+const list = (props) => {
+  return(
+
+  )
+};
 
 const App = () => {
   return (
@@ -36,9 +43,13 @@ const App = () => {
         <Text style={styles.number}>0</Text>
       </View>
 
+      <View style={styles.Worklist}>
+        <Worklist title="Ev temizlenecek" />
+      </View>
+
       <View style={styles.entry}>
         <TextInput style={styles.Input} />
-        <TouchableOpacity style={styles.button}>
+        <TouchableOpacity style={styles.button} onPress={{}}>
           <Text style={styles.buttontext}>ADD TODO</Text>
         </TouchableOpacity>
       </View>
@@ -94,6 +105,9 @@ const styles = StyleSheet.create({
   buttontext: {
     color: 'white',
     fontWeight: 'bold',
+  },
+  Worklist: {
+    flex: 1,
   },
 });
 
