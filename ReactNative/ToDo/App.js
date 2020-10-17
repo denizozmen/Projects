@@ -6,7 +6,7 @@
  * @flow strict-local
  */
 
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import {
   SafeAreaView,
   StyleSheet,
@@ -29,13 +29,15 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 import Worklist from './src/Worklist';
 
-const list = (props) => {
-  return(
-
-  )
-};
-
 const App = () => {
+  const [utext, setusertext] = useState('');
+
+  const list = () => {
+    return (
+      
+    )
+  };
+
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.Header}>
@@ -44,12 +46,15 @@ const App = () => {
       </View>
 
       <View style={styles.Worklist}>
-        <Worklist title="Ev temizlenecek" />
+        <Worklist title={list} />
       </View>
 
       <View style={styles.entry}>
-        <TextInput style={styles.Input} />
-        <TouchableOpacity style={styles.button} onPress={{}}>
+        <TextInput
+          style={styles.Input}
+          onChangeText={(usertext) => setusertext(usertext)}
+        />
+        <TouchableOpacity style={styles.button} onPress={list}>
           <Text style={styles.buttontext}>ADD TODO</Text>
         </TouchableOpacity>
       </View>
