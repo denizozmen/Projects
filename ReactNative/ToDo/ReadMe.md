@@ -14,14 +14,14 @@ You're sections headers will be used to reference location of destination.
 
 - [Author Info](#author-info)
 
+<img src="https://github.com/denizozmen/Projects/blob/master/ReactNative/ToDo/Todomedia.gif" alt="Todomedia" width="300" height="400" align="right" style="max-width:100%;">
+  <img
+
 ---
 
 ## Description
 
 #### Technologies
-
-<img src="https://github.com/denizozmen/Projects/blob/master/ReactNative/ToDo/Todomedia.gif" alt="Todomedia" width="350" height="400" align="right" style="max-width:100%;">
-  <img
 
 - React-Native
 - Javascript
