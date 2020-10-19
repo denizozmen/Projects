@@ -24,8 +24,8 @@ You're sections headers will be used to reference location of destination.
 - Javascript
 - VS Code
 - Git
-- <img src="https://github.com/denizozmen/denizozmen/blob/main/content_heart-react.gif" alt="react-native" width="200" height="200" align="right" style="max-width:100%;">
-  <img>
+- <img src="https://github.com/denizozmen/Projects/ReactNative/Todo/blob/master/Todomedia.gif" alt="Todomedia" width="200" height="200" align="right" style="max-width:100%;">
+  <img
 
 ---
 
