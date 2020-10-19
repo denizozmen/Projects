@@ -1,8 +1,4 @@
-# GitHub Account Finder App
-
-- Website - [GitHub Account Finder App](https://mrtarikozturk.github.io/githup-account-finder/)
-
-<!--  This is a ReadMe template to help save you time and effort. -->
+# To Do App
 
 ---
 
@@ -24,19 +20,17 @@ You're sections headers will be used to reference location of destination.
 
 #### Technologies
 
-- HTML5
+- React-Native
 - Javascript
 - VS Code
 - Git
-- Fetch Api
-- async-await
 
-[Back To The Top](#github-account-finder-app)
+[Back To The Top](#To Do App)
 
 ---
 
 ## Author Info
 
-- Medium - [@mr.tarik.ozturk](https://medium.com/@mr.tarik.ozturk)
+- Linkedln - [@denizozmen](https://www.linkedin.com/in/deniz-%C3%B6zmen-66ab161b7/)
 
-[Back To The Top](#github-account-finder-app)
+[Back To The Top](#To Do App)
