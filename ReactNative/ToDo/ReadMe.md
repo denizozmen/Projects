@@ -24,13 +24,11 @@ You're sections headers will be used to reference location of destination.
 - Javascript
 - VS Code
 - Git
-
-[Back To The Top](#To Do App)
+- <img src="https://github.com/denizozmen/denizozmen/blob/main/content_heart-react.gif" alt="react-native" width="200" height="200" align="right" style="max-width:100%;">
+  <img>
 
 ---
 
 ## Author Info
 
 - Linkedln - [@denizozmen](https://www.linkedin.com/in/deniz-%C3%B6zmen-66ab161b7/)
-
-[Back To The Top](#To Do App)
