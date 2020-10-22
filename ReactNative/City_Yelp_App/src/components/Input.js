@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import {
   View,
   Text,
@@ -9,8 +9,20 @@ import {
   Dimensions,
 } from 'react-native';
 
+import City from '../City.json';
+
 const Input = () => {
   const [text, setText] = useState('');
+  const [display, setDisplay] = useState('');
+
+  useEffect(() => {
+    const filtred = City.filter((item) => {
+      const textName = text.toUpperCase();
+      const cityName = item.name.toUpperCase();
+      return cityName.indexOf(textName) > -1;
+    });
+    setDisplay(filtred);
+  }, [text]);
 
   return (
     <TextInput
