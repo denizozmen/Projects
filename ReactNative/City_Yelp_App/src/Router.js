@@ -15,8 +15,9 @@ function Router() {
     <NavigationContainer>
       <Stack.Navigator
         screenOptions={{
-          headerShown: false,
-        }}>
+          headerShown: true,
+        }}
+        initialRouteName="CityList">
         <Stack.Screen name="CityListPage" component={CityList} />
         <Stack.Screen name="RestorantPage" component={Restorant} />
       </Stack.Navigator>

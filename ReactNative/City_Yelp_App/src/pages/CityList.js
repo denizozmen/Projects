@@ -12,6 +12,7 @@ import {
 
 import City from '../City.json';
 import Restorant from './Restorant';
+import ButtonList from '../components/ButtonList';
 
 const CityList = (props) => {
   const [text, setText] = useState('');
@@ -19,20 +20,12 @@ const CityList = (props) => {
 
   console.log(display);
 
-  const ButtonList = (data) => {
+  const renderButtonList = (data) => {
     return (
-      <TouchableOpacity
-        onPress={() =>
-          props.navigation.navigate('RestorantPage', {onRestorant: display})
-        }
-        style={{
-          backgroundColor: '#e0e0e0',
-          borderWidth: 0.2,
-          borderColor: '#bdbdbd',
-          alignItems: 'center',
-        }}>
-        <Text style={{fontSize: 25}}>{data.item.name}</Text>
-      </TouchableOpacity>
+      <ButtonList
+        title={data}
+        onGo={() => props.navigation.navigate('RestorantPage', {goValue: data})}
+      />
     );
   };
 
@@ -59,7 +52,11 @@ const CityList = (props) => {
         placeholder={'Bir şehir arayın'}
         onChangeText={(value) => setText(value)}
       />
-      <FlatList data={display} renderItem={ButtonList} />
+      <FlatList
+        keyExtractor={(_, index) => index.toString()}
+        data={display}
+        renderItem={renderButtonList}
+      />
     </SafeAreaView>
   );
 };

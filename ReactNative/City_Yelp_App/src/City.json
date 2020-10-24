@@ -1,35 +1,69 @@
 [
-  { "name":"Allen"},
+  { "name":"Allen",
+    "img": "https://lh3.googleusercontent.com/proxy/jSAWw9nrCKZelo4lQBPfd5zCHfM89K9z2If76A7H--oeEi3PG1I0v57fhpXimkfoPEFii8sgQ6GOBsp8H7zByyU66tCyczJlUQuHX8N43sOsU2rYBoisfhTsgrcR1Mai8K2rm6PK6uWdj4kbsqNxmWf17NNWGc3ZyBYHx-fCaj752yFwdRUkN9piNrxIKLfdCAFkElN5dijeekOH ",
+    "nameCafe":"Root Cafe"
+    
+  },
   
-  { "name":"Allendale"},
+  { "name":"Allendale",
+    "img":"https://tarzaydinlatma.com/wp-content/uploads/tarz_aydinlatma_cafe_restoran_otel_aydinlatma_resim2.jpg",
+    "nameCafe":"X"},
     
-  { "name":"Allentown"},
+  { "name":"Allentown",
+    "img":"https://i.pinimg.com/originals/08/5b/99/085b994152fe67ff23aecfc1777a4785.jpg",
+    "nameCafe":"Y"},
     
-  { "name":"Allison Park"},
+  { "name":"Allison Park",
+    "img":"https://i.pinimg.com/originals/08/5b/99/085b994152fe67ff23aecfc1777a4785.jpg",
+    "nameCafe":"Z"},
     
-  { "name":"Allston"},
+  { "name":"Allston",
+    "img":"https://cdnb.artstation.com/p/assets/images/images/022/539/009/large/tuna-tuysuz-9.jpg?1575818459",
+    "nameCafe":"E"},
     
-  { "name":"Alma"},
+  { "name":"Alma",
+    "img":"https://www.mimdap.org/wp-content/uploads/21505.jpg",
+    "nameCafe":"B"},
     
-  { "name":"Almonte"},
+  { "name":"Almonte",
+    "img":"https://dp.pazardanal.com/wp-content/uploads/abcfe02a-b9a8-4a34-895f-39abefbac998.jpg",
+    "nameCafe":"C"},
     
-  { "name":"Alpharetta"},
+  { "name":"Alpharetta",
+    "img":"https://i.pinimg.com/originals/ea/75/f2/ea75f27ded882f3e6b9eb81b232fffff.jpg",
+    "nameCafe":"G"},
 
-  {"name":"Alpine"},
+  {"name":"Alpine",
+  "img":"https://www.uclertriomat.com/wp-content/uploads/2016/10/Ciel-de-Paris-Restaurant.jpg",
+  "nameCafe":"R"},
 
-  {"name":"Alsip"},
+  {"name":"Alsip",
+    "img":"https://www.uclertriomat.com/wp-content/uploads/2016/10/rice-home-restaurant.jpg",
+    "nameCafe":"K"},
 
-  {"name":"Altamonte Springs"},
+  {"name":"Altamonte Springs",
+    "img":"https://www.renderatolyesi.com/wp-content/uploads/2018/06/restaurant-tasar%C4%B1m%C4%B1-00-5-1024x576.jpg",
+    "nameCafe":"J"},
 
-  {"name":"Atlanta"},
+  {"name":"Atlanta",
+   "img":"https://www.icmimarlikdergisi.com/wp-content/uploads/2018/01/modern-restaurant-design-interiors-120118-102-01.jpg",
+   "nameCafe":"M"},
 
-  {"name":"Altemonte Springs"},
+  {"name":"Altemonte Springs",
+    "img":"https://www.ulukuricmimarlik.com/upload/product/res1-20190325134504.jpg",
+    "nameCafe":"V"},
 
-  {"name":"Alton"},
+  {"name":"Alton",
+    "img":"https://i.pinimg.com/originals/1d/10/81/1d1081139630a22e3a15995678d28c6f.jpg",
+    "nameCafe":"S"},
 
-  {"name":"Alvore Obregon"},
+  {"name":"Alvore Obregon",
+    "img":"https://i.pinimg.com/originals/29/05/dc/2905dc8b280b423abe7615f075d17275.jpg",
+    "nameCafe":"I"},
 
-  {"name":"Ambler"}
+  {"name":"Ambler",
+    "img":"https://i.pinimg.com/originals/63/bb/4c/63bb4c0fa1f63f809a7327aea19f1d8b.jpg",
+    "nameCafe":"N"}
  
  
 ]
