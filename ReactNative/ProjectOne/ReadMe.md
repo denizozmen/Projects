@@ -4,7 +4,8 @@
 
 ### Table of Contents
 
-You're sections headers will be used to reference location of destination.
+<img src="https://github.com/denizozmen/Projects/blob/master/ReactNative/ProjectOne/media.gif" alt="media" width="300" height="450" align="right" style="max-width:100%;">
+  <img
 
 - [Description](#description)
 <!--
@@ -13,9 +14,6 @@ You're sections headers will be used to reference location of destination.
 - [License](#license) -->
 
 - [Author Info](#author-info)
-
-<img src="https://github.com/denizozmen/Projects/blob/master/ReactNative/ProjectOne/media.gif" alt="media" width="300" height="450" align="right" style="max-width:100%;">
-  <img
 
 ---
 
@@ -33,3 +31,5 @@ You're sections headers will be used to reference location of destination.
 ## Author Info
 
 - Linkedln - [@denizozmen](https://www.linkedin.com/in/deniz-%C3%B6zmen-66ab161b7/)
+
+<!-- You're sections headers will be used to reference location of destination. -->
