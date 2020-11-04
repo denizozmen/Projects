@@ -53,7 +53,7 @@ const topics = [
 
 const Introduction = (props) => {
   function selectLanguage(lang) {
-    props.navigation.navigate('Job', {selectedLanguage: lang});
+    props.navigation.navigate('Jobs', {selectedLanguage: lang});
   }
 
   return (
