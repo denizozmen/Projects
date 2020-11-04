@@ -6,9 +6,6 @@
 
 You're sections headers will be used to reference location of destination.
 
-<img src="https://github.com/denizozmen/Projects/blob/master/ReactNative/ProjectOne/media.gif" alt="media" width="300" height="450" align="right" style="max-width:100%;">
-  <img
-
 - [Description](#description)
 <!--
 - [How To Use](#how-to-use)
@@ -16,6 +13,9 @@ You're sections headers will be used to reference location of destination.
 - [License](#license) -->
 
 - [Author Info](#author-info)
+
+<img src="https://github.com/denizozmen/Projects/blob/master/ReactNative/ProjectOne/media.gif" alt="media" width="300" height="450" align="right" style="max-width:100%;">
+  <img
 
 ---
 
