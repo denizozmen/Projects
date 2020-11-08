@@ -1,11 +1,16 @@
 import React from 'react';
-import {StyleSheet, Text, View} from 'react-native';
+import {StyleSheet, Text, View, TouchableOpacity} from 'react-native';
+import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 
-const City = () => {
+//Myimport
+import {city} from '../style';
+
+const City = (props) => {
   return (
-    <View>
-      <Text>City</Text>
-    </View>
+    <TouchableOpacity onPress={props.onPress} style={city.container}>
+      <Icon name="bank" size={20} color="#424242" />
+      <Text style={city.text}>{props.data}</Text>
+    </TouchableOpacity>
   );
 };
 
