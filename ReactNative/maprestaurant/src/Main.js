@@ -5,6 +5,8 @@ import axios from 'axios';
 
 import {SearchBar, City} from './components';
 
+let originalList = [];
+
 const Main = () => {
   //useStates
   const [citylist, setCityList] = useState([]);
@@ -19,6 +21,7 @@ const Main = () => {
   const fetchData = async () => {
     const {data} = await axios.get('http://opentable.herokuapp.com/api/cities');
     setCityList(data.cities);
+    originalList = [...data.cities];
   };
 
   const selectCity = async (city) => {
@@ -34,10 +37,19 @@ const Main = () => {
     <City
       data={item}
       onPress={(item) => {
-        selecCity(item);
+        selectCity(item);
       }}
     />
   );
+
+  const filterCity = (text) => {
+    const filteredList = originalList.filter((item) => {
+      const userText = text.toLowerCase();
+      const cityName = item.toLowerCase();
+      return cityName.indexOf(userText) > -1;
+    });
+    setCityList(filteredList);
+  };
 
   return (
     <SafeAreaView style={{flex: 1}}>
@@ -54,7 +66,7 @@ const Main = () => {
       </View>
 
       <View style={{position: 'absolute'}}>
-        <SearchBar />
+        <SearchBar onChangeText={filterCity} />
         <FlatList
           horizontal
           showsHorizontalScrollIndicator={false}

@@ -4,7 +4,7 @@ import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 
 import {searchBar} from '../style';
 
-const SearchBar = () => {
+const SearchBar = (props) => {
   return (
     <View style={searchBar.container}>
       <Icon name="magnify" size={20} color="gray" />
