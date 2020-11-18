@@ -1,3 +1,3 @@
 export * from './City';
-export * from './RestautantDeatail';
+export * from './RestaurantDetail';
 export * from './SearchBar';

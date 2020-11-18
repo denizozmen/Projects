@@ -36,3 +36,31 @@ export const city = StyleSheet.create({
     marginLeft: 5,
   },
 });
+
+export const restaurantDetail = StyleSheet.create({
+  container: {
+    backgroundColor: 'white',
+    padding: 5,
+    borderTopLeftRadius: 10,
+    borderTopRightRadius: 10,
+  },
+  name: {
+    fontSize: 20,
+    fontWeight: 'bold',
+    color: '#424242',
+  },
+  address: {
+    fontSize: 12,
+  },
+  phone: {
+    fontWeight: 'bold',
+    marginLeft: 5,
+  },
+  line: {
+    borderWidth: 1,
+    width: Dimensions.get('window').width / 4,
+    alignSelf: 'center',
+    borderColor: '#E0E0E0',
+    marginVertical: 2,
+  },
+});
